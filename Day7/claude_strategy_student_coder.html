@@ -1,0 +1,189 @@
+
+<style>
+  .strat-wrap { font-family: var(--font-sans); padding: 1.5rem 0; color: var(--color-text-primary); }
+  .section-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.08em; margin: 2rem 0 0.75rem; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 12px; }
+  .model-hero { border: 2px solid #185FA5; background: #E6F1FB; border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin-bottom: 12px; }
+  .model-hero .name { font-size: 22px; font-weight: 500; color: #0C447C; margin: 0 0 4px; }
+  .model-hero .sub { font-size: 14px; color: #185FA5; }
+  .badge { display: inline-block; font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: var(--border-radius-md); margin-right: 6px; }
+  .b-blue { background: #E6F1FB; color: #185FA5; }
+  .b-teal { background: #E1F5EE; color: #0F6E56; }
+  .b-amber { background: #FAEEDA; color: #854F0B; }
+  .b-red { background: #FCEBEB; color: #A32D2D; }
+  .b-purple { background: #EEEDFE; color: #534AB7; }
+  .model-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px; }
+  .model-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 0.9rem 1rem; }
+  .model-card .mname { font-size: 15px; font-weight: 500; margin: 0 0 6px; }
+  .model-card .mdesc { font-size: 13px; color: var(--color-text-secondary); line-height: 1.5; margin: 0 0 8px; }
+  .model-card .muse { font-size: 12px; color: var(--color-text-secondary); }
+  .effort-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 12px; }
+  .effort-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.85rem 1rem; }
+  .effort-card .elabel { font-size: 13px; font-weight: 500; margin: 0 0 4px; }
+  .effort-card .edesc { font-size: 13px; color: var(--color-text-secondary); line-height: 1.5; margin: 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; font-weight: 500; font-size: 12px; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.06em; padding: 8px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  td { padding: 9px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); color: var(--color-text-primary); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .mistake { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .mistake:last-child { border-bottom: none; }
+  .mistake-icon { color: #A32D2D; font-size: 18px; margin-top: 1px; flex-shrink: 0; }
+  .mistake-text { font-size: 13px; line-height: 1.6; color: var(--color-text-primary); }
+  .final-box { background: #E1F5EE; border: 0.5px solid #5DCAA5; border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; display: flex; align-items: flex-start; gap: 12px; }
+  .final-box .icon { font-size: 22px; color: #0F6E56; flex-shrink: 0; margin-top: 2px; }
+  .final-box .text { font-size: 14px; line-height: 1.7; color: #085041; }
+  .final-box .text strong { font-weight: 500; }
+</style>
+
+<div class="strat-wrap">
+  <h2 style="font-size:22px;font-weight:500;margin:0 0 4px;">My Claude Usage Strategy</h2>
+  <p style="font-size:14px;color:var(--color-text-secondary);margin:0 0 0.5rem;">Profile: Student · Coding · Daily User · Coding Help</p>
+
+  <div class="section-title">Recommended primary model</div>
+  <div class="model-hero">
+    <div class="name">Claude Sonnet 4.6</div>
+    <div class="sub">Your everyday coding powerhouse — smart, fast, and built for deep technical work</div>
+  </div>
+  <div class="card" style="font-size:14px;line-height:1.7;color:var(--color-text-secondary);">
+    As a daily coding student, you need a model that understands complex logic, debugs real errors, explains concepts clearly, and handles long files — without burning through your usage limits. Sonnet hits that sweet spot: it's powerful enough for serious coding tasks yet responsive enough for rapid back-and-forth iteration.
+  </div>
+
+  <div class="section-title">When to use each model</div>
+  <div class="model-grid">
+    <div class="model-card">
+      <div class="mname" style="color:#854F0B;">⚡ Haiku</div>
+      <div class="mdesc">Quick lookups, syntax checks, simple snippets</div>
+      <div class="muse"><span class="badge b-amber">Fast</span><span class="badge b-amber">Low cost</span></div>
+    </div>
+    <div class="model-card">
+      <div class="mname" style="color:#185FA5;">🎯 Sonnet</div>
+      <div class="mdesc">Debugging, full features, project code, explanations</div>
+      <div class="muse"><span class="badge b-blue">Daily driver</span></div>
+    </div>
+    <div class="model-card">
+      <div class="mname" style="color:#534AB7;">🧠 Opus</div>
+      <div class="mdesc">System design, hard algorithms, architecture reviews</div>
+      <div class="muse"><span class="badge b-purple">Rare · Deep</span></div>
+    </div>
+  </div>
+
+  <div class="section-title">Effort level guide</div>
+  <div class="effort-grid">
+    <div class="effort-card">
+      <p class="elabel">Low</p>
+      <p class="edesc">Quick syntax help, short snippets, yes/no answers</p>
+    </div>
+    <div class="effort-card">
+      <p class="elabel" style="color:#185FA5;">Standard ✓ (default)</p>
+      <p class="edesc">Debugging, explaining concepts, building features</p>
+    </div>
+    <div class="effort-card">
+      <p class="elabel" style="color:#854F0B;">High</p>
+      <p class="edesc">Multi-file refactoring, complex bug hunts, DSA problems</p>
+    </div>
+    <div class="effort-card">
+      <p class="elabel" style="color:#A32D2D;">Max</p>
+      <p class="edesc">Major assignments, capstone projects, interview prep</p>
+    </div>
+  </div>
+
+  <div class="section-title">Personalized task table</div>
+  <div class="card" style="padding:0.25rem 0;">
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th><th>Best model</th><th>Effort</th><th>Reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fix a bug / error</td>
+          <td><span class="badge b-blue">Sonnet</span></td>
+          <td><span class="badge b-blue">Standard</span></td>
+          <td>Needs context + reasoning, not over-complex</td>
+        </tr>
+        <tr>
+          <td>Understand a concept (OOP, recursion)</td>
+          <td><span class="badge b-blue">Sonnet</span></td>
+          <td><span class="badge b-blue">Standard</span></td>
+          <td>Clear explanations with examples</td>
+        </tr>
+        <tr>
+          <td>Write a function / small feature</td>
+          <td><span class="badge b-blue">Sonnet</span></td>
+          <td><span class="badge b-blue">Standard</span></td>
+          <td>Balanced speed and quality</td>
+        </tr>
+        <tr>
+          <td>Check syntax / quick lookup</td>
+          <td><span class="badge b-amber">Haiku</span></td>
+          <td><span class="badge b-teal">Low</span></td>
+          <td>Fast, cheap, no need for deep reasoning</td>
+        </tr>
+        <tr>
+          <td>DSA / algorithm problems</td>
+          <td><span class="badge b-blue">Sonnet</span></td>
+          <td><span class="badge b-amber">High</span></td>
+          <td>Needs careful step-by-step thinking</td>
+        </tr>
+        <tr>
+          <td>Full project / capstone code</td>
+          <td><span class="badge b-blue">Sonnet</span></td>
+          <td><span class="badge b-red">Max</span></td>
+          <td>Complex, multi-part — deserves full effort</td>
+        </tr>
+        <tr>
+          <td>System/architecture design</td>
+          <td><span class="badge b-purple">Opus</span></td>
+          <td><span class="badge b-red">Max</span></td>
+          <td>Highest reasoning needed for design decisions</td>
+        </tr>
+        <tr>
+          <td>Code review / refactor</td>
+          <td><span class="badge b-blue">Sonnet</span></td>
+          <td><span class="badge b-amber">High</span></td>
+          <td>Needs holistic understanding of the codebase</td>
+        </tr>
+        <tr>
+          <td>Interview / placement prep</td>
+          <td><span class="badge b-purple">Opus</span></td>
+          <td><span class="badge b-red">Max</span></td>
+          <td>High stakes — use your best tools</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-title">Biggest mistakes to avoid</div>
+  <div class="card" style="padding:0.5rem 1.25rem;">
+    <div class="mistake">
+      <i class="ti ti-x mistake-icon" aria-hidden="true"></i>
+      <div class="mistake-text"><span style="font-weight:500;">Using Opus for every task</span> — it's slow and overkill for daily coding. Save it for architecture or interview prep only.</div>
+    </div>
+    <div class="mistake">
+      <i class="ti ti-x mistake-icon" aria-hidden="true"></i>
+      <div class="mistake-text"><span style="font-weight:500;">Pasting code without context</span> — always explain what the code is supposed to do and what error you're seeing.</div>
+    </div>
+    <div class="mistake">
+      <i class="ti ti-x mistake-icon" aria-hidden="true"></i>
+      <div class="mistake-text"><span style="font-weight:500;">Accepting code without understanding it</span> — ask Claude to explain every line. You're a student; learning beats copy-pasting.</div>
+    </div>
+    <div class="mistake">
+      <i class="ti ti-x mistake-icon" aria-hidden="true"></i>
+      <div class="mistake-text"><span style="font-weight:500;">Using Max effort for trivial tasks</span> — wastes time and context. Match effort to task complexity.</div>
+    </div>
+    <div class="mistake">
+      <i class="ti ti-x mistake-icon" aria-hidden="true"></i>
+      <div class="mistake-text"><span style="font-weight:500;">One-shot giant prompts</span> — break big problems into steps. "Build me a full app" gets worse results than iterative building.</div>
+    </div>
+  </div>
+
+  <div class="section-title">Final recommendation</div>
+  <div class="final-box">
+    <i class="ti ti-bulb icon" aria-hidden="true"></i>
+    <div class="text">
+      If you could only pick one: <strong>Claude Sonnet 4.6 at Standard effort.</strong><br>
+      It handles 90% of student coding tasks — debugging, learning, building features — with the best balance of speed, depth, and reliability. Switch to High effort when stuck on hard problems, and pull out Opus only for your most important work like capstone projects or placement interviews.
+    </div>
+  </div>
+</div>
