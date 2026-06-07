@@ -1,6 +1,6 @@
 # 🤖 Day 7 — My Personalized Claude AI Usage Strategy
 
-> **30-Day AI Challenge | Day 7**
+> **60-Day Claude Challenge | Day 7**
 > Building a smart, structured workflow for using Claude effectively as a student coder.
 
 ---
