@@ -2,6 +2,7 @@
 
 ## Objective
 
+
 Build a fully interactive Face Puzzle Game that captures a user's photo through the webcam and converts it into a playable puzzle with multiple difficulty levels.
 
 ---
