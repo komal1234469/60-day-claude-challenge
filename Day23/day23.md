@@ -1,14 +1,4 @@
-I have everything I need. Here's a final recap before I generate the full report:
-
-- **Startup Idea**: One platform for final-year students — search jobs by company name, upload resume → auto skill extraction → match % against job description → missing skills shown → auto-generate ATS-friendly resume for that job
-- **Problem**: Students waste time across multiple job portals, don't know if they're qualified, don't know what skills they're missing, and resumes get rejected by ATS before a human sees them
-- **Target Customers**: Final-year students in India
-- **Market**: India
-- **Existing Validation**: Functional prototype already built (resume parser, job search, AI-based matching, resume generation, email notifications) — no user testing/signups yet
-
-Generating the **Customer & MVP Blueprint** now.
-
----
+##Day-23 Build Your Customer & MVP Blueprint
 
 # Customer & MVP Blueprint
 
