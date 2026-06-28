@@ -1,4 +1,4 @@
-##Day-23 Build Your Customer & MVP Blueprint
+#Day-23 Build Your Customer & MVP Blueprint
 
 # Customer & MVP Blueprint
 
